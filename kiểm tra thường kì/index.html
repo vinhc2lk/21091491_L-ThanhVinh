@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bài kiểm tra thường kì </title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <!--Bài 1 -->
+    <div class="name">Bài 1</div>
+    <div class="bai1">
+      <div class="bai1-container">
+        <h1>Login</h1>
+        <p>Login here using your username and password</p>
+        <form action="" class="bai1-form">
+          <i class="fa fa-user icon"></i>
+          <input
+            type="text"
+            id="bai1-username"
+            placeholder="username"
+            class="bai1-input"
+          /><br />
+          <i class="fa fa-lock"></i>
+          <input
+            type="password"
+            id="bai1-password"
+            placeholder="password"
+            class="bai1-input"
+        <span class="bai1-2button"><i class="fa fa-eye" aria-hidden="true"></i> 
+        
+        </form>
+        <div class="bai1-button">
+          <span class="bai1-2button"> Fogot password </span>
+          <span class="bai1-2button"> Sign up <i class="fa fa-sign-in" aria-hidden="true"></i> </span>
+        </div>
+      </div>
+    </div>
+  </body>
+    <h1>BÀI 2 TẠO ĐỒNG HỒ</h1>
+    <div class="bai2">
+        <div class="hours">
+            <span id="hour"></span> : <span id="minutes"></span> : <span id="seccond"></span>:<span id="AM"></span>
+        </div>
+    </div>
+  
+    <h1>Bài 3 </h1>
+    <div class="bai3-wrap">
+        <div class="bai3-form">
+            <label for="name">Tên của bạn</Label>
+            <input type="text" id="name">
+            <label for="noidung">Nội dung góp ý</label>
+            <input name="noidung" type="text" id="noidung"></input>
+            <input type="button" value="Gửi nội dung" onclick="submit()">
+        </div>
+
+        <h1 class="danh-gia">Đánh giá</h1>
+        <div class="line"></div>
+        <div id="comment-section">
+
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
